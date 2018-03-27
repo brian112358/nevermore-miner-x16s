@@ -1,5 +1,5 @@
 
-ccminer 2.2.5 (Feb 2018)                            "x16r algo"
+ccminer 2.2.5 (Feb 2018)                            "x16r + x16s algo"
 ---------------------------------------------------------------
 
 ***************************************************************
@@ -122,7 +122,7 @@ its command line interface and options.
                           x11         use to mine DarkCoin
                           x14         use to mine X14Coin
                           x15         use to mine Halcyon
-                          x16r        use to mine Raven
+                          x16s        use to mine Pigeoncoin
                           x17         use to mine X17
                           vanilla     use to mine Vanilla (Blake256)
                           veltor      use to mine VeltorCoin

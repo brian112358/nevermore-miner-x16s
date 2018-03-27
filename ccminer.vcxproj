@@ -271,6 +271,7 @@
     <ClInclude Include="x11\cuda_x11_aes_alexis.cuh" />
     <ClInclude Include="x11\cuda_x11_simd512_sm2.cuh" />
     <ClInclude Include="x16r\cuda_x16r.h" />
+    <ClInclude Include="x16s\cuda_x16s.h" />
     <CudaCompile Include="Algo256\bmw.cu" />
     <CudaCompile Include="Algo256\cuda_bmw.cu">
       <MaxRegCount>76</MaxRegCount>
@@ -442,11 +443,11 @@
     <CudaCompile Include="x13\cuda_x13_fugue512_alexis.cu" />
     <CudaCompile Include="x15\cuda_x14_shabal512_alexis.cu" />
     <CudaCompile Include="x15\cuda_x15_whirlpool_sm3.cu" />
-    <CudaCompile Include="x16r\x16r.cu" />
-    <CudaCompile Include="x16r\cuda_x16_echo512.cu" />
-    <CudaCompile Include="x16r\cuda_x16_fugue512.cu" />
-    <CudaCompile Include="x16r\cuda_x16_shabal512.cu" />
-    <CudaCompile Include="x16r\cuda_x16_simd512_80.cu" />
+    <CudaCompile Include="x16s\cuda_x16_echo512.cu" />
+    <CudaCompile Include="x16s\cuda_x16_fugue512.cu" />
+    <CudaCompile Include="x16s\cuda_x16_shabal512.cu" />
+    <CudaCompile Include="x16s\cuda_x16_simd512_80.cu" />
+    <CudaCompile Include="x16s\x16s.cu" />
     <CudaCompile Include="zr5.cu" />
     <CudaCompile Include="heavy\cuda_blake512.cu">
     </CudaCompile>
@@ -609,7 +610,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\ccminer.ico" />
-    <Image Include="res\icon2.ico" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="res\ccminer.rc" />

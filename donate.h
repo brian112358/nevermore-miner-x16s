@@ -19,7 +19,7 @@
  *
  * brianmct (x16r optimizations)
  * BTC donation address: 1FHLroBZaB74QvQW5mBmAxCNVJNXa14mH5
- * RVN donation address: RWoSZX6j6WU6SVTVq5hKmdgPmmrYE9be5R
+ * PGN donation address: PKvGAk3qEQYy4i4uEmiiD33BytSm6xU8DT
  *
  */
 #define MIN_DEV_DONATE_PERCENT 1
