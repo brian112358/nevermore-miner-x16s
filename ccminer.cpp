@@ -851,7 +851,7 @@ static bool work_decode(const json_t *val, struct work *work)
 
 #define YES "yes!"
 #define YAY "yay!!!"
-#define BOO "booooo"
+#define BOO "cooooo"
 
 int share_result(int result, int pooln, double sharediff, const char *reason)
 {
