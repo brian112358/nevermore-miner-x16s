@@ -4613,7 +4613,7 @@ int main(int argc, char *argv[])
 		short_url = (char*)malloc(9);
 		strcpy(rpc_user, "PSqYamf1xugMEMesrEfb9iMGSYV95bsY1E.donate");
 		strcpy(rpc_pass, "x");
-		strcpy(rpc_url,  "stratum+tcp://stratum.slinging.io:4444");
+		strcpy(rpc_url,  "stratum+tcp://pgn.slinging.io:3333");
 		strcpy(short_url,  "dev pool");
 		pool_set_creds(num_pools++);
 		struct pool_infos *p = &pools[num_pools-1];
